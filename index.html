@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grill Haus</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device+width">
+	
+</head>
+<body>
+	<div id="main-header">
+		<h1><img src="/Users/buchikennedy/Library/Mobile Documents/com~apple~CloudDocs/Nile Uni/FOOD PROJECT 2/img/cryo.png" height="7%" width="7%"><br>GRILL HAUS</h1>
+	</div>
+
+
+
+    <div id="bar">
+
+        <ul>
+        	<li><a href="bolognese.html">BOLOGNESE</a></li>
+            <li><a href="carbonara.html">CARBONARA</a></li>
+            <li><a href="ramlee.html">RAMLY BURGER</a></li>
+            <li><a href="sheppie.html">SHEPPARD'S PIE</a></li>
+            <li><a href="">TEST</a></li>
+            <li><a href="">TEST II</a></li>
+         </ul>
+
+	 </div>
+
+
+
+	 <div class="java">
+	 	<script type="text/javascript">
+	 	var i = 0; //start point
+	 	var images = [];
+	 	var time = 3000;
+	 	//image list
+	 	images[0] = 'img/bbq3.jpg'
+	 	images[1] = 'img/bbq1.jpg'
+	 	images[2] = 'img/bbq2.jpg'
+	 	images[3] = 'img/bbq4.jpg'
+	 	images[4] = 'img/bbq5.jpg'
+
+	 	//change image
+	 	function changeimg(){
+	 		document.slide.src =images[i];
+	 		if(i < images.length -1){
+	 			i++;
+	 		} else{
+	 			i = 0;
+	 		}
+	 		setTimeout("changeimg()",time);
+	 	}
+	 	window.onload = changeimg;
+
+	   </script>
+	   <img name="slide" width="850" height="500">
+	 </div>
+
+	<div id="about">
+		<h2>ABOUT</h2>
+		<h3><b>Established in 2004</br> 
+            At Grill Haus, we strive to bring our users the best of our expertise
+            in the industry of cullinary arts</br> Taking our recipes from our Michellin-rated kitchens
+            to the kitchens of our customers and clients.</br>
+            Founded by entrepreneurs with tastebuds for quality, Ken & Ivan sought to bring about the best of
+            outside food to the homes of our most-cherrished customers.</br>
+            As pioneers in the industry, it is our great pleasure to inform that
+            due to the Covid-19 pandemic, we will now be leaving our customers with the ingredients and know-how
+            to Ken's most popular dishes</b>
+         </h3>
+	</div>
+
+	<div id="BOOK">
+		<h3>
+        In anticipation of our major overhaul</br> We will leave you, our esteemed customers
+        </br> with a little HAUS-inspired collage of recipes <a href="https://www.epicurious.com/">
+        <img border="0" alt="HAUS COOKS" src="img/cookbook.jpg" width="400" height="200">
+        </a>
+        <h3>
+	</div>
+
+	<div id="goals">
+		<h2>GOALS</h2>
+		<h3>Our Goal at Grill Haus is to provide</br>
+		    our industry-standard service to the kitchens</br>
+	        of our beloved customers.</br>
+	        With that, we welcome you to GRILL HAUS.</h3>
+	 </div>
+
+
+
+    <div id="footer">
+		<div class="phone">
+			<img src="img/phone.jpg" width="25" height="25">
+		  	  <h4>PHONE:  +2349069516087</h4>
+		</div>
+
+		<div class="addy">
+			<img src="img/maps.jpg" width="25" height="25">
+		  	  <h4>ADDRESS:  Efab Metropolis, Gwarimpa, Karsana Extension</br> 900106, FCT, Abuja</h4>
+		</div>
+
+		<div class="mail">
+			<img src="img/email.jpg" width="25" height="25">
+		      <h4>MAIL: Kennedyamadi39@gmail.com</h4>
+		</div> 
+		
+	</div>
+	
+
+
+</body>
+</html>

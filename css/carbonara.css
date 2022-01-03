@@ -1,0 +1,123 @@
+body{
+	background-image: url(../img/wood.jpg);
+	font-family: Arial narrow;
+	margin: 0;	
+}
+
+#main-header{
+	top:10%;
+	text-align: center;
+	
+}
+
+#bar{
+	background-color: #333;
+    overflow: hidden;
+}
+
+#bar a {
+  /*float: center;*/
+  color: #f2f2f2;
+  /*padding: 16px;*/
+  padding: 30px;
+  text-decoration: none;
+  font-size:15px;
+}
+
+li{
+	display: inline;
+}
+
+/*to change color of link on hover*/
+#bar a:hover {
+  background-color: #728FCE;
+  color: black;
+}
+
+/*to add color to current link*/
+#bar a.active{
+	background-color: #04AA6D;
+    color: white;
+}
+
+
+.pic{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.name{
+	text-align: center;
+	margin-top: 130px;
+	font-size: 20px;
+	padding: 1px;
+	background-color: #bfbfbf;
+	width: 100%;
+	height: 70px;
+}
+
+.ingredients, .prep-main{
+	margin-left: 15%;
+	width: 70%;
+	color: black;
+	background-color: #d9d9d9;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.ing{
+	margin-left: 15%;
+	width: 70%;
+	color: black;
+	background-color: #d9d9d9;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+.prep{
+	margin-left: 15%;
+	width: 70%;
+	color: black;
+	background-color: #d9d9d9;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.step1, .step2, .step3, .step4,{
+	text-align: center;
+	color: #666666;
+	margin-bottom: 50px;
+}
+
+.step1-1, .step2-2, .step3-3, .step4-4{
+	text-align: center;
+}
+
+
+#footer a {
+	color: #f2f2f2;
+	position: fixed;
+	bottom: 20px;   
+    background-color: black;
+    display: inline-block;
+}
+
+.phone{
+	float: left;
+	padding: 3%;
+}
+
+.mail{
+	float: left;
+	padding: 3%;
+}
+
+.addy{
+	float: left;
+	padding: 3%;
+}
+	   

@@ -1,0 +1,117 @@
+body{
+	background-image: url(../img/wood.jpg);
+	font-family: Arial narrow;
+	margin: 0;
+	
+}
+
+
+#main-header{
+	top:10%;
+	text-align: center;
+	
+}
+
+
+#bar{
+	background-color: #333;
+    overflow: hidden;
+}
+
+#bar a {
+  /*float: center;*/
+  color: #f2f2f2;
+  /*padding: 16px;*/
+  padding: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+li{
+	display: inline;
+}
+
+/*to change color of link on hover*/
+#bar a:hover {
+  background-color: #728FCE;
+  color: black;
+}
+
+/*to add color to current link*/
+#bar a.active{
+	background-color: #04AA6D;
+    color: white;
+}
+
+
+.java{
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+ul{
+	margin-right: 15%;
+}
+
+#opening{
+	margin-top: 100px;
+	color: black;
+	text-align: center;
+	
+}
+
+#about{
+	margin-left: 15%;
+	width: 70%;
+	color: black;
+	background-color: #d9d9d9;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#BOOK{
+	margin-left: 28%;
+	width: 40%;
+	background:black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#goals{
+	margin-left: 35%;
+	width: 30%;
+	background:black;
+	color: white;
+	text-align: center;
+	margin-bottom: 150px;
+	border-radius: 20px;
+}
+
+
+#footer a {
+	color: #f2f2f2;
+	position: fixed;
+	bottom: 20px;   
+    background-color: black;
+    display: inline-block;
+}
+
+.phone{
+	float: left;
+	padding: 3%;
+}
+
+.mail{
+	float: left;
+	padding: 3%;
+}
+
+.addy{
+	float: left;
+	padding: 3%;
+}
+	   
